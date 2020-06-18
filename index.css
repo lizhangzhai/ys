@@ -1,0 +1,407 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-06-05 13:39:50
+ * @version $Id$
+ */
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+
+}
+body{
+	background: #f8f8f8;
+}
+#contair{
+	background: #fff;
+	width: 100%;
+
+}
+#header{
+	width: 100%;
+	height: 750px;
+	background: #fff url('image/bg1.jpg') no-repeat;
+	background-size: 100%;
+	position: relative;
+	
+}
+.header-title{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-size: 61px;
+	font-weight: 600;
+	font-family: Voster,"Roboto Condensed",sans-serif;
+	width: 50%;
+	height: 200px;
+	line-height: 200px;
+	top: 300px;
+	left:25%;
+
+}
+#nav{
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background: #202020;
+}
+#nav .guide{
+	text-align: center;
+	width: 20%;
+	height: 110px;
+	line-height: 125px;
+	font-size: 30px;
+	float: left;
+}
+#nav .guide font{
+	color: #f8f8f8;
+}
+#nav .exit{
+	position: absolute;
+	text-align: center;
+	right: 10px;
+	top: 20px;
+	width: 20%;
+	height: 80px;
+	line-height: 80px;
+	font-size: 30px;
+	float: right;
+}
+#nav .exit font{
+	color: #f8f8f8;
+}
+#nav .ul{
+	position: absolute;
+	top: 15px;
+	left: 380px;
+	width: 50%;
+	height: 90px;
+	display: flex;
+	justify-content: space-around;
+}
+#nav .ul .li{
+	
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	margin: 5px auto;
+	width: 20%;
+	height: 120px;
+	line-height: 90px;
+
+}
+#nav .ul .li font{
+	color: #f8f8f8;
+
+}
+/*main开始*/
+#main{
+	width: 100%;
+	background: #f8f8f8;
+}
+ #main .content-1{
+	width: 100%;
+	position: relative;
+	font-size: 20px;
+	color: #2d2d2d;
+}
+ #main .content-1 .content-1-title{
+ 	width: 500px;
+ 	height: 100px;
+ 	line-height: 170px;
+ 	text-align: center;
+ 	margin: 1px auto;
+ 	font-size: 35px;
+ 	color: #2d2d2d;
+ }
+ #main .content-1  .content-2-title{
+ 	width: 400px;
+ 	height: 100px;
+ 	text-align: center;
+ 	margin: 1px auto;
+ 	font-size: 60px;
+ 	color: #3f96b4;
+ }
+  #main .content-1  .content-1-a,.content-1-a2,.content-1-a1,.content-1-a3{
+  	width: 800px;
+  	text-align: center;
+  	margin: 0 auto;
+  	margin-bottom: 35px;
+  }
+
+
+  
+
+  #main .content-3{
+  	width: 90%;
+  	height: 100px;
+  	margin: 0 auto;
+  	position: relative;
+  	background: #aa0;
+  	margin-top: 20px;
+  }
+  #main .content-3 ul{
+  	width: 100%;
+  	height: 100px;	
+  	margin: 0 auto;
+  	display: flex;
+  	background: #f8f8f8;
+  	position: relative;
+  }
+  #main .content-3 ul li{
+  	width: 20%;
+  	height: 100px;
+  	background: #fff;
+  }
+  #main .content-3 ul li a:link{
+  	display: block;
+    height: 100px;
+    width: 275px;
+  }
+  #main .content-3 ul li a:hover{
+	position: absolute;
+	top: -10px;
+  }
+  #main .content-4{
+  	width: 100%;
+  	height: 500px;
+  	background: url('image/11.jpg') no-repeat;
+  	text-align: center;
+  	font-size: 40px;
+
+  	line-height: 100px;
+  }
+  #main .content-5 {
+	width: 100%;
+	height: 550px;
+	display: flex;
+	background: #000;
+  }
+  #main .content-5  .content-5-1,.content-5-2,.content-5-3,.content-5-4{
+	justify-content: space-between;
+	width: 25%;
+	background: #fff;
+  }
+  #main .content-5  .content-5-1,.content-5-2,.content-5-3,.content-5-4 a:hover{
+
+  }
+  #main .content-6{
+  	width: 100%;
+  	height: 1000px;
+  	background: url('image/6.jpg') no-repeat;
+  	background-size: 100% 100%;
+  }
+  #main .content-6 .content-6-1{
+  	width: 100%;
+  	height: 1000px;
+  	background: rgba(47,79,79, 0.5);
+  	
+  }
+  #main .content-7{
+  	width: 100%;
+  	height: 600px;
+  	position: relative;
+  	background: #2F4F4F;
+  }
+  #main .content-7 .content-7-1{
+  	width: 900px;
+  	height: 50px;
+  	text-align: center;
+  	line-height: 50px;
+  	font-size: 40px;
+  	color: #f8f8f8;
+  	margin: 0 auto;
+  }
+  #main .content-7 .content-7-2{
+  	width: 500px;
+  	height: 200px;
+  	text-align: center;
+  	line-height: 80px;
+  	font-size: 70px;
+  	margin: 0 auto;
+  	color: #00BFFF;
+  }
+   #main .content-7 .content-7-3{
+  	width: 1000px;
+  	height: 200px;
+  	text-align: center;
+  	line-height: 50px;
+  	font-size: 25px;
+  	margin: 0 auto;
+  	color: #f8f8f8;
+  }
+  #main .content-8{
+  	width: 100%;
+  	height: 600px;
+  	background: url('image/17.jpg') no-repeat;
+  	background-size:100% 100%;
+  	position: relative;
+  }
+  #main .content-8  .content-81{
+  	color: #fff;
+  	width: 60%;
+  	position: absolute;
+  	top: 100px;
+  	left: 260px;
+  	font-size: 25px;
+  	line-height: 30px;
+  	background: rgba(0, 0, 0, 0.5);
+  }
+  #main .content-9{
+	width: 95%;
+	margin: 0 auto;
+ }
+ #main .content-9 .content-9-1{
+	width: 1000px;
+  	height: 200px;
+  	text-align: center;
+  	line-height: 200px;
+  	font-size: 35px;
+  	margin: 0 auto;
+  	color: #000;
+ }
+ #main .content-9 .content-9-2{
+	width: 100%;
+	margin: 0 auto;
+ }
+ #main .content-9 .content-9-2 ul{
+ 	width: 100%;
+ 	height: 240px;
+ 	background: #f8f8f8;
+ 	text-align: center;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	margin-bottom: 5px;
+ }
+ #main .content-9 .content-9-2 ul li{
+ 	float: left;
+ 	width: 16%;
+ 	height: 230px;
+ 	border: #fff solid 5px;
+ 	line-height: 230px;
+ 	font-size: 20px;
+ 	color: #fff;
+ }
+ #main .content-9 .content-9-2 ul li font{
+ 	color: #bcc;
+ }
+ #main .content-9 .content-9-2 ul li a:link{
+    display: block;
+    height: 230px;
+	font-weight:bold;	
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	border: 0px solid #fff;
+}
+#main .content-9 .content-9-2 ul li a:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 30px;
+	color: #fff;
+}
+/*ul1开始*/
+#main .content-9 .content-9-2 .ul1 .li1{
+	background: url('image/ul/1.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul1 .li2{
+	background: url('image/ul/2.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul1 .li3{
+	background: url('image/ul/3.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul1 .li4{
+	background: url('image/ul/4.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul1 .li5{
+	background: url('image/ul/5.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul1 .li6{
+	background: url('image/ul/6.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+/*ul1结束*/
+
+/*ul2开始*/
+#main .content-9 .content-9-2 .ul2 .li1{
+	background: url('image/ul1/1.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul2 .li2{
+	background: url('image/ul1/2.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul2 .li3{
+	background: url('image/ul1/3.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul2 .li4{
+	background: url('image/ul1/4.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul2 .li5{
+	background: url('image/ul1/5.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul2 .li6{
+	background: url('image/ul1/6.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+
+/*ul2结束*/
+/*ul3开始*/
+#main .content-9 .content-9-2 .ul3 .li1{
+	background: url('image/ul2/1.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul3 .li2{
+	background: url('image/ul2/2.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul3 .li3{
+	background: url('image/ul2/3.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul3 .li4{
+	background: url('image/ul2/4.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul3 .li5{
+	background: url('image/ul2/5.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#main .content-9 .content-9-2 .ul3 .li6{
+	background: url('image/ul2/6.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+
+/*ul3结束*/
+
+  /*main结束*/
+  /*footer开始*/
+#footer{
+	width: 100%;
+	background: url('image/bg/14.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+#footer .footer-top{
+	width: 100%;
+	height: 150px;
+	font-size: 35px;
+	text-align: center;
+	line-height: 150px;
+
+}
+#footer .footer-bt{
+	width: 100%;
+	height: 180px;
+	font-size: 30px;
+	line-height: 180px;text-align: center;
+  /*footer结束*/}
